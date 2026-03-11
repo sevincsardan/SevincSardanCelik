@@ -1,20 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Üçüncü Sayfa</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 <body background="images/background3.jpg">
+    <div style="background-color: #ddd;opacity: 0.6;">
     <p style="background-color: antiquewhite; opacity: 0.6;">Üçüncü Sayfaya Hoşgeldiniz. </p>
     <br><br><a href="index.html"  style="background-color: antiquewhite; opacity: 0.6;">Anasayfaya geri dön!</a>
     <br><br><a href="ikinci_sayfa.html"  style="background-color: antiquewhite; opacity: 0.6;">İkinci sayfaya geri dön!</a>
     <br><br><a href="index.html"  style="background-color: antiquewhite; opacity: 0.6;">Anasayfa ilk başlığa geri dön!</a>
-<br><br><picture>
-  <source media="(min-width: 650px)" srcset="img_food.jpg"> /* araştır */
+    <br><br><a href="div.html">Dördüncü sayfaya git</a><br><br>
+     <table>
+  <tr>
+    <th><a href="Birinci_sayfa.html"> Birinci sayfaya git </a></th>
+    <th><a href="ikinci_sayfa.html"> İkinci sayfaya git </a></th>
+    <th><a href="ucuncu_sayfa.html"> Üçüncü sayfaya git </a></th>
+    <th><a href="div.html"> Dördüncü sayfaya git </a></th>
+  </tr>
+    </table>
+    <br><br><picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg"><!-- araştır -->
   <source media="(min-width: 465px)" srcset="img_car.jpg">
   <img src="img_girl.jpg">
 </picture>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+</style>
+<table>
+    <caption>Araba Bilgileri</caption>
+  <tr>
+    <th colspan="2">RESİM- İÇERİK</th>
+    <th>ADET</th>
+  </tr>
+  <tr>
+    <th>araba1</th>
+    <td>standart paket</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th>araba2</th>
+    <td>luxury paket</td>
+    <td>1</td>
+  </tr>
+    <tr>
+    <th>araba1</th>
+    <td>standart2 paket</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th>araba2</th>
+    <td>luxury2 paket</td>
+    <td>1</td>
+  </tr>
+  <br><br><br><br>
+   
+<table style="width:100%">
+  <tr>
+    <th>İsim</th>
+    <td>aaa</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telefon</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+</table>
+</div>
 </body>
 </html>
